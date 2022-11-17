@@ -40,7 +40,7 @@ private:
   void timer_callback()
   {
     auto message = std_msgs::msg::String();
-    message.data = "Abhinav first ros project" + std::to_string(count_++);
+    message.data = "This is the change in string" + std::to_string(count_++);
     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
     publisher_->publish(message);
   }
