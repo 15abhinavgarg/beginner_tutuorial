@@ -1,0 +1,29 @@
+[2.279s] Invoking command in '/home/fierra/ros2_ws/src/examples/launch_testing/launch_testing_examples': AMENT_PREFIX_PATH=/home/fierra/ros2_ws/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/fierra/ros2_ws/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/home/fierra/ros2_ws/build/launch_testing_examples/.pytest_cache PYTHONPATH=/home/fierra/ros2_ws/build/launch_testing_examples:/home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.912s] [1m============================= test session starts ==============================[0m
+[3.912s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[3.925s] cachedir: /home/fierra/ros2_ws/build/launch_testing_examples/.pytest_cache
+[3.925s] rootdir: /home/fierra/ros2_ws/src/examples/launch_testing/launch_testing_examples
+[3.925s] plugins: launch-testing-ros-0.19.3, launch-pytest-1.0.3, launch-testing-1.0.3, ament-xmllint-0.12.4, ament-pep257-0.12.4, ament-mypy-0.12.4, ament-flake8-0.12.4, ament-copyright-0.12.4, ament-lint-0.12.4, rerunfailures-10.2, repeat-0.9.1, colcon-core-0.10.0, mock-1.10.4, cov-2.8.1, timeout-1.3.3
+[4.853s] [1mcollecting ... [0m[1m
+[8.512s] collecting 0 items                                                             [0m[1m
+[8.522s] collecting 1 item                                                              [0m[1m
+[8.523s] collected 9 items                                                              [0m
+[8.524s] 
+[12.511s] launch_testing_examples/check_msgs_launch_test.py [32m.[0m[36m                      [ 11%][0m
+[26.406s] launch_testing_examples/check_multiple_nodes_launch_test.py [32m.[0m[36m            [ 22%][0m
+[31.834s] launch_testing_examples/check_node_launch_test.py [32m.[0m[36m                      [ 33%][0m
+[31.853s] launch_testing_examples/hello_world_launch_test.py [32m.[0m[36m                     [ 44%][0m
+[35.185s] launch_testing_examples/record_rosbag_launch_test.py [32m.[0m[36m                   [ 55%][0m
+[35.831s] launch_testing_examples/set_param_launch_test.py [32m.[0m[36m                       [ 66%][0m
+[36.775s] test/test_copyright.py [32m.[0m[36m                                                 [ 77%][0m
+[37.048s] test/test_flake8.py [32m.[0m[36m                                                    [ 88%][0m
+[37.107s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[37.108s] 
+[37.108s] [33m=============================== warnings summary ===============================[0m
+[37.108s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[37.108s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[37.108s] 
+[37.108s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[37.109s] - generated xml file: /home/fierra/ros2_ws/build/launch_testing_examples/pytest.xml -
+[37.109s] [33m[1m==================== 9 passed, 1 warnings in 33.20 seconds =====================[0m
+[37.303s] Invoked command in '/home/fierra/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '0': AMENT_PREFIX_PATH=/home/fierra/ros2_ws/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/fierra/ros2_ws/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/home/fierra/ros2_ws/build/launch_testing_examples/.pytest_cache PYTHONPATH=/home/fierra/ros2_ws/build/launch_testing_examples:/home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

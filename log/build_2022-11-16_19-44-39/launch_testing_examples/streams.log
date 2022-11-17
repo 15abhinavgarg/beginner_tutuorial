@@ -1,0 +1,48 @@
+[2.463s] Invoking command in '/home/fierra/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fierra/ros2_ws/install/launch_testing_examples --uninstall --editable --build-directory /home/fierra/ros2_ws/build/launch_testing_examples/build
+[3.202s] running develop
+[3.438s] Removing /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch-testing-examples.egg-link (link to .)
+[3.463s] Invoked command in '/home/fierra/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fierra/ros2_ws/install/launch_testing_examples --uninstall --editable --build-directory /home/fierra/ros2_ws/build/launch_testing_examples/build
+[3.466s] Invoking command in '/home/fierra/ros2_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/fierra/ros2_ws/build/launch_testing_examples/build install --prefix /home/fierra/ros2_ws/install/launch_testing_examples --record /home/fierra/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed
+[4.098s] running egg_info
+[4.098s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[4.098s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[4.099s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[4.099s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[4.099s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[4.168s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[4.169s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[4.170s] running build
+[4.170s] running build_py
+[4.170s] creating /home/fierra/ros2_ws/build/launch_testing_examples/build
+[4.170s] creating /home/fierra/ros2_ws/build/launch_testing_examples/build/lib
+[4.170s] creating /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.171s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.171s] copying launch_testing_examples/__init__.py -> /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.171s] copying launch_testing_examples/set_param_launch_test.py -> /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.171s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.171s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.171s] copying launch_testing_examples/hello_world_launch_test.py -> /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.172s] copying launch_testing_examples/check_node_launch_test.py -> /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.172s] running install
+[4.176s] running install_lib
+[4.177s] creating /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples
+[4.177s] copying /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples
+[4.177s] copying /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/__init__.py -> /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples
+[4.178s] copying /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/set_param_launch_test.py -> /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples
+[4.178s] copying /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/record_rosbag_launch_test.py -> /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples
+[4.178s] copying /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_msgs_launch_test.py -> /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples
+[4.178s] copying /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/hello_world_launch_test.py -> /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples
+[4.178s] copying /home/fierra/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_node_launch_test.py -> /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples
+[4.182s] byte-compiling /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples/check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-38.pyc
+[4.184s] byte-compiling /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples/__init__.py to __init__.cpython-38.pyc
+[4.184s] byte-compiling /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples/set_param_launch_test.py to set_param_launch_test.cpython-38.pyc
+[4.185s] byte-compiling /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples/record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-38.pyc
+[4.186s] byte-compiling /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples/check_msgs_launch_test.py to check_msgs_launch_test.cpython-38.pyc
+[4.186s] byte-compiling /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples/hello_world_launch_test.py to hello_world_launch_test.cpython-38.pyc
+[4.186s] byte-compiling /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples/check_node_launch_test.py to check_node_launch_test.cpython-38.pyc
+[4.187s] running install_data
+[4.188s] running install_egg_info
+[4.191s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch_testing_examples-0.15.1-py3.8.egg-info
+[4.191s] running install_scripts
+[4.220s] writing list of installed files to '/home/fierra/ros2_ws/build/launch_testing_examples/install.log'
+[4.245s] Invoked command in '/home/fierra/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/fierra/ros2_ws/install/launch_testing_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/fierra/ros2_ws/build/launch_testing_examples/build install --prefix /home/fierra/ros2_ws/install/launch_testing_examples --record /home/fierra/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed

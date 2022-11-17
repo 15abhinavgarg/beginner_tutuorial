@@ -1,0 +1,50 @@
+[5.432s] Invoking command in '/home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server --uninstall --editable --build-directory /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[6.755s] running develop
+[6.999s] Removing /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[7.449s] Invoked command in '/home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server --uninstall --editable --build-directory /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[7.451s] Invoking command in '/home/fierra/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build install --prefix /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server --record /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[8.656s] running egg_info
+[8.658s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[8.659s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[8.659s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[8.660s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[8.660s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[8.744s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[8.746s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[8.746s] running build
+[8.747s] running build_py
+[8.747s] creating /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[8.747s] creating /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib
+[8.747s] creating /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.747s] copying examples_rclpy_minimal_action_server/server.py -> /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.748s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.748s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.748s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.748s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.748s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[8.749s] running install
+[8.753s] running install_lib
+[8.754s] creating /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[8.755s] copying /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[8.755s] copying /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[8.755s] copying /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[8.755s] copying /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[8.755s] copying /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[8.756s] copying /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[8.759s] byte-compiling /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-38.pyc
+[8.762s] byte-compiling /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-38.pyc
+[8.762s] byte-compiling /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-38.pyc
+[8.763s] byte-compiling /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-38.pyc
+[8.764s] byte-compiling /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-38.pyc
+[8.765s] byte-compiling /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-38.pyc
+[8.765s] running install_data
+[8.766s] running install_egg_info
+[8.770s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.15.1-py3.8.egg-info
+[8.772s] running install_scripts
+[8.825s] Installing server script to /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.826s] Installing server_defer script to /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.826s] Installing server_not_composable script to /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.826s] Installing server_queue_goals script to /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.826s] Installing server_single_goal script to /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[8.827s] writing list of installed files to '/home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[9.260s] Invoked command in '/home/fierra/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/build install --prefix /home/fierra/ros2_ws/install/examples_rclpy_minimal_action_server --record /home/fierra/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

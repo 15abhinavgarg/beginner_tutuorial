@@ -1,0 +1,27 @@
+[3.432s] Invoking command in '/home/fierra/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/fierra/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber
+[4.821s] running develop
+[5.263s] running egg_info
+[5.264s] creating examples_rclpy_minimal_subscriber.egg-info
+[5.265s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[5.266s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[5.267s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[5.268s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[5.268s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[5.269s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.363s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.365s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.376s] running build_ext
+[5.377s] Creating /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/site.py
+[5.389s] Creating /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[5.392s] Installing subscriber_lambda script to /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.392s] Installing subscriber_member_function script to /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.393s] Installing subscriber_old_school script to /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.394s] 
+[5.394s] Installed /home/fierra/ros2_ws/build/examples_rclpy_minimal_subscriber
+[5.395s] running install_data
+[5.395s] creating /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[5.397s] creating /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[5.398s] creating /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[5.399s] copying resource/examples_rclpy_minimal_subscriber -> /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[5.399s] copying package.xml -> /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[5.576s] Invoked command in '/home/fierra/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/fierra/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/fierra/ros2_ws/install/examples_rclpy_minimal_subscriber

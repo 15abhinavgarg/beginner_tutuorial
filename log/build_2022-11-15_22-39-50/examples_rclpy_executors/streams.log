@@ -1,0 +1,30 @@
+[5.596s] Invoking command in '/home/fierra/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/fierra/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fierra/ros2_ws/install/examples_rclpy_executors --editable --build-directory /home/fierra/ros2_ws/build/examples_rclpy_executors/build --no-deps install_data --install-dir /home/fierra/ros2_ws/install/examples_rclpy_executors
+[8.866s] running develop
+[9.933s] running egg_info
+[9.934s] creating examples_rclpy_executors.egg-info
+[9.934s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[9.934s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[9.934s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[9.934s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[9.935s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[9.935s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[10.002s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[10.002s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[10.007s] running build_ext
+[10.009s] Creating /home/fierra/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/site.py
+[10.014s] Creating /home/fierra/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples-rclpy-executors.egg-link (link to .)
+[10.015s] Installing callback_group script to /home/fierra/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[10.015s] Installing composed script to /home/fierra/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[10.015s] Installing custom_callback_group script to /home/fierra/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[10.016s] Installing custom_executor script to /home/fierra/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[10.016s] Installing listener script to /home/fierra/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[10.016s] Installing talker script to /home/fierra/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[10.016s] 
+[10.017s] Installed /home/fierra/ros2_ws/build/examples_rclpy_executors
+[10.017s] running install_data
+[10.017s] creating /home/fierra/ros2_ws/install/examples_rclpy_executors/share/ament_index
+[10.017s] creating /home/fierra/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[10.017s] creating /home/fierra/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[10.017s] copying resource/examples_rclpy_executors -> /home/fierra/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[10.017s] copying package.xml -> /home/fierra/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[10.084s] Invoked command in '/home/fierra/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/fierra/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fierra/ros2_ws/install/examples_rclpy_executors --editable --build-directory /home/fierra/ros2_ws/build/examples_rclpy_executors/build --no-deps install_data --install-dir /home/fierra/ros2_ws/install/examples_rclpy_executors
