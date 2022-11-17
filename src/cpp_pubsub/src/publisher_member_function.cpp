@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <chrono>
+#include <chrono.h>
 #include <functional>
 #include <memory>
 #include <string>
@@ -20,18 +20,16 @@
 #include "rclcpp/rclcpp.hpp"        // for ros2
 #include "std_msgs/msg/string.hpp"  // helps to publish data
 
-using namespace std::chrono_literals;
+// using namespace std::chrono_literals;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
  * member function as a callback from the timer. */
 
-class MinimalPublisher : public rclcpp::Node  // a node class is created
-{
+class MinimalPublisher : public rclcpp::Node{
  public:
   MinimalPublisher()  // constructor
       : Node("minimal_publisher"),
-        count_(0)  // initialising count to 0
-  {
+        count_(0) {
     publisher_ = this->create_publisher<std_msgs::msg::String>(
         "topic", 10);  // initialising a topic and message type is string
     timer_ = this->create_wall_timer(
