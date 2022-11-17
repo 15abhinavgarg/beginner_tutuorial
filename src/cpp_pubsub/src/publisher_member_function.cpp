@@ -12,35 +12,34 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <chrono>
+#include <chrono.h>
 #include <functional>
 #include <memory>
 #include <string>
 
-#include "rclcpp/rclcpp.hpp" // for ros2
-#include "std_msgs/msg/string.hpp" // helps to publish data
+#include "rclcpp/rclcpp.hpp"        // for ros2
+#include "std_msgs/msg/string.hpp"  // helps to publish data
 
-using namespace std::chrono_literals;
+// using namespace std::chrono_literals;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
  * member function as a callback from the timer. */
 
-class MinimalPublisher : public rclcpp::Node // a node class is created
-{
-public:
-  MinimalPublisher() // constructor
-  : Node("minimal_publisher"), count_(0) // initialising count to 0
-  {
-    publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10); // initialising a topic and message type is string
+class MinimalPublisher : public rclcpp::Node{
+ public:
+  MinimalPublisher()  // constructor
+      : Node("minimal_publisher"),
+        count_(0) {
+    publisher_ = this->create_publisher<std_msgs::msg::String>(
+        "topic", 10);  // initialising a topic and message type is string
     timer_ = this->create_wall_timer(
-      500ms, std::bind(&MinimalPublisher::timer_callback, this));
+        500ms, std::bind(&MinimalPublisher::timer_callback, this));
   }
 
-private:
-  void timer_callback()
-  {
+ private:
+  void timer_callback() {
     auto message = std_msgs::msg::String();
-    message.data = "Hello World!" + std::to_string(count_++);
+    message.data = "This is the change in string" + std::to_string(count_++);
     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
     publisher_->publish(message);
   }
@@ -49,10 +48,10 @@ private:
   size_t count_;
 };
 
-int main(int argc, char * argv[])
-{
-  rclcpp::init(argc, argv); // initialises ros2
-  rclcpp::spin(std::make_shared<MinimalPublisher>()); // starts processing data from node
+int main(int argc, char* argv[]) {
+  rclcpp::init(argc, argv);                            // initialises ros2
+  rclcpp::spin(std::make_shared<MinimalPublisher>());  // starts processing data
+                                                       // from node
   rclcpp::shutdown();
   return 0;
 }
