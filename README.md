@@ -4,7 +4,8 @@
 ### Overview
 
 This is a ROS Package that defines a basic publisher and subscriber with custom message.
-To check cpplint and cppcheck result
+
+To check cpplint and cppcheck result check src/cpp_pubsub/results
 
 ### Dependencies/ Assumptions
 - OS : Ubuntu 20.04 
