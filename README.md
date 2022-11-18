@@ -17,9 +17,8 @@ To check cpplint and cppcheck result check result folder
 ## How to Run the ROS Package
 ### Build Instructions
 ```
-cd <your_ROS2_ws>/src
 git clone https://github.com/15abhinavgarg/beginner_tutuorial.git
-cd ..   
+cd beginner_tutuorial   
 rosdep install -i --from-path src --rosdistro humble -y
 colcon build --packages-select beginner_tutorials
 source . install/setup.bash
@@ -29,14 +28,14 @@ source ~/<your ROS2 installation>/install/local_setup.bash
 ### Run Publisher
 To run the publisher node, open a new terminal and run:
 ```
-cd <your_ROS2_ws>
+cd beginner_tutuorial
 . install/setup.bash
 ros2 run cpp_pubsub talker
 ```
 ### Run Subscriber
 To run the subscriber node, open a new terminal and run:
 ```
-cd <your_ROS2_ws>
+cd beginner_tutuorial
 . install/setup.bash
 ros2 run cpp_pubsub listener
 ```
@@ -45,7 +44,7 @@ ros2 run cpp_pubsub listener
 ## Launch
 To run the client node, open a new terminal and run:
 ```
-cd <your_ROS2_ws>/src/cpp_pubsub/launch
+cd beginner_tutuorial/src/cpp_pubsub/launch
 ros2 launch nodes.yaml
 ```
 
@@ -55,12 +54,12 @@ The results after running the following commands are stored in the <your_package
 ### cppcheck
 Run the following command from the root directory of your ROS package
 ```
-cd src/cpp_pubsub
+cd beginner_tutuorial/src/cpp_pubsub
 cppcheck --enable=all --std=c++17 ./src/*.cpp --suppress=missingIncludeSystem --suppress=unmatchedSuppression --suppress=unusedFunction --suppress=missingInclude --suppress=useInitializationList > results/cppcheck.txt
 ```
 ### cpplint
 Run the following command from the root directory of your ROS package
 ```
- cd src/cpp_pubsub
+ cd beginner_tutuorial/src/cpp_pubsub
  cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order ./src/*.cpp > ./results/cpplint.txt
 ```
