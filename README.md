@@ -4,10 +4,11 @@
 ### Overview
 
 This is a ROS Package that defines a basic publisher and subscriber with custom message.
+To check cpplint and cppcheck result
 
 ### Dependencies/ Assumptions
 - OS : Ubuntu 20.04 
-- ROS2 Distro : ROS2 Foxy
+- ROS2 Distro : ROS2 Humble
 - Package build type : ```ament_cmake ```
 - Package dependencies : ```rclcpp```, ```std_msgs``` 
 - ROS2 Humble Installation : [link](https://automaticaddison.com/how-to-install-ros-2-foxy-fitzroy-on-ubuntu-linux/)
@@ -53,10 +54,12 @@ The results after running the following commands are stored in the <your_package
 ### cppcheck
 Run the following command from the root directory of your ROS package
 ```
+cd src/cpp_pubsub
 cppcheck --enable=all --std=c++17 ./src/*.cpp --suppress=missingIncludeSystem --suppress=unmatchedSuppression --suppress=unusedFunction --suppress=missingInclude --suppress=useInitializationList > results/cppcheck.txt
 ```
 ### cpplint
 Run the following command from the root directory of your ROS package
 ```
+ cd src/cpp_pubsub
  cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order ./src/*.cpp > ./results/cpplint.txt
 ```
