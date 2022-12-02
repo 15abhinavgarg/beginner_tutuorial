@@ -1,27 +1,10 @@
-/**
- * @file add_two_ints_server.cpp
- * @author Abhinav Garg (agarg125@umd.edu)
- * @brief 
- * @version 0.1
- * @date 2022-11-18
- * 
- * @copyright Copyright (c) 2022
- * 
- */
-
-#include "rclcpp/rclcpp.hpp" // package dependencies
-#include "example_interfaces/srv/add_two_ints.hpp" // package dependencies
+#include "rclcpp/rclcpp.hpp"
+#include "example_interfaces/srv/add_two_ints.hpp"
 
 #include <memory>
 
-/**
- * @brief The function adds two integers
- * 
- * @param request 
- * @param response 
- */
-void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request, // request type
-          std::shared_ptr<example_interfaces::srv::AddTwoInts::Response>      response) // response type
+void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request,
+          std::shared_ptr<example_interfaces::srv::AddTwoInts::Response>      response)
 {
   response->sum = request->a + request->b;
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: %ld" " b: %ld",
@@ -31,15 +14,15 @@ void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> req
 
 int main(int argc, char **argv)
 {
-  rclcpp::init(argc, argv); // initialising ros2 C++ client library
+  rclcpp::init(argc, argv);
 
-  std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_two_ints_server"); // node creation
+  std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_two_ints_server");
 
   rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr service =
-    node->create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", &add); // create_service named add_two_ints
+    node->create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", &add);
 
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Ready to add two ints."); // printing message on log
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Ready to add two ints.");
 
-  rclcpp::spin(node); // making service available
+  rclcpp::spin(node);
   rclcpp::shutdown();
 }
