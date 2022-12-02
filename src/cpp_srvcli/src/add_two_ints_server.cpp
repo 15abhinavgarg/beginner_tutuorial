@@ -1,5 +1,15 @@
-#include "rclcpp/rclcpp.hpp"
-#include "example_interfaces/srv/add_two_ints.hpp"
+/**
+ * @file add_two_ints_server.cpp
+ * @author Abhinav Garg (agarg125@umd.edu)
+ * @brief 
+ * @version 0.1
+ * @date 2022-11-15
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+#include "rclcpp/rclcpp.hpp" // package depency
+#include "example_interfaces/srv/add_two_ints.hpp" // package dependcy
 
 #include <memory>
 
@@ -14,7 +24,7 @@ void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> req
 
 int main(int argc, char **argv)
 {
-  rclcpp::init(argc, argv);
+  rclcpp::init(argc, argv); 
 
   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_two_ints_server");
 
