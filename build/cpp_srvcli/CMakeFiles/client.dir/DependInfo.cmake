@@ -16,7 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/fierra/ros2_humble/install/example_interfaces/include/example_interfaces"
+  "/home/fierra/beginner_tutuorial/install/tutorial_interfaces/include/tutorial_interfaces"
   "/home/fierra/ros2_humble/install/rclcpp/include/rclcpp"
   "/home/fierra/ros2_humble/install/ament_index_cpp/include/ament_index_cpp"
   "/home/fierra/ros2_humble/install/libstatistics_collector/include/libstatistics_collector"
@@ -42,8 +42,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/fierra/ros2_humble/install/rosgraph_msgs/include/rosgraph_msgs"
   "/home/fierra/ros2_humble/install/rosidl_typesupport_cpp/include/rosidl_typesupport_cpp"
   "/home/fierra/ros2_humble/install/rosidl_typesupport_c/include/rosidl_typesupport_c"
-  "/home/fierra/ros2_humble/install/action_msgs/include/action_msgs"
-  "/home/fierra/ros2_humble/install/unique_identifier_msgs/include/unique_identifier_msgs"
+  "/home/fierra/ros2_humble/install/geometry_msgs/include/geometry_msgs"
+  "/home/fierra/ros2_humble/install/std_msgs/include/std_msgs"
   )
 
 # Targets to which this target links.

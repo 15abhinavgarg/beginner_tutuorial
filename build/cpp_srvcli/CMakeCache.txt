@@ -269,7 +269,7 @@ TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 _Python3_EXECUTABLE:FILEPATH=/usr/bin/python3.8
 
 //Path to a library.
-_lib:FILEPATH=/home/fierra/ros2_humble/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/fierra/beginner_tutuorial/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/home/fierra/ros2_humble/install/action_msgs/share/action_msgs/cmake
@@ -385,6 +385,9 @@ fastrtps_cmake_module_DIR:PATH=/home/fierra/ros2_humble/install/fastrtps_cmake_m
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/home/fierra/ros2_humble/install/foonathan_memory_vendor/lib/foonathan_memory/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/home/fierra/ros2_humble/install/geometry_msgs/share/geometry_msgs/cmake
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/home/fierra/ros2_humble/install/libstatistics_collector/share/libstatistics_collector/cmake
 
@@ -498,6 +501,9 @@ std_msgs_DIR:PATH=/home/fierra/ros2_humble/install/std_msgs/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/home/fierra/ros2_humble/install/tracetools/share/tracetools/cmake
+
+//The directory containing a CMake configuration file for tutorial_interfaces.
+tutorial_interfaces_DIR:PATH=/home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake
 
 //The directory containing a CMake configuration file for unique_identifier_msgs.
 unique_identifier_msgs_DIR:PATH=/home/fierra/ros2_humble/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake

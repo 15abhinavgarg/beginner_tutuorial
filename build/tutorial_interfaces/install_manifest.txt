@@ -93,9 +93,7 @@
 /home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
 /home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
 /home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
-/home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
 /home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
-/home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
 /home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
 /home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
 /home/fierra/beginner_tutuorial/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh

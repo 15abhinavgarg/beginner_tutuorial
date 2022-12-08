@@ -2,9 +2,7 @@
 /home/fierra/beginner_tutuorial/install/cpp_srvcli/lib/cpp_srvcli/client
 /home/fierra/beginner_tutuorial/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
 /home/fierra/beginner_tutuorial/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
-/home/fierra/beginner_tutuorial/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
 /home/fierra/beginner_tutuorial/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
-/home/fierra/beginner_tutuorial/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
 /home/fierra/beginner_tutuorial/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
 /home/fierra/beginner_tutuorial/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
 /home/fierra/beginner_tutuorial/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
