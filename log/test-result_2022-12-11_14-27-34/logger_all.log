@@ -1,0 +1,20 @@
+[0.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--test-result-base', 'build/cpp_pubsub/']
+[0.151s] DEBUG:colcon:Parsed command line arguments: Namespace(all=False, delete=False, delete_yes=False, log_base=None, log_level=None, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x7f3d1d68ac70>>, result_files_only=False, test_result_base='build/cpp_pubsub/', verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x7f3d1d68ac70>, verb_name='test-result', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3d1cde2ca0>, verbose=False)
+[0.159s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[0.162s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)
+[0.175s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2121/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.181s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2137/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.184s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2141/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.195s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2142/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.201s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2144/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.225s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2146/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.229s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2153/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.234s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2200/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.241s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221209-2203/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.241s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221211-1900/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.242s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221211-1910/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.242s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221211-1913/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.243s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221211-1915/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.243s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221211-1919/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.244s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221211-1921/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.244s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/cpp_pubsub/Testing/20221211-1924/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'

@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "cpp_pubsub")
 set(cpp_pubsub_VERSION "0.0.0")
-set(cpp_pubsub_MAINTAINER "fierra <agarg125@umd.edu>")
+set(cpp_pubsub_MAINTAINER "tchang <tommy.y.chang@gmail.com>")
 set(cpp_pubsub_BUILD_DEPENDS "rclcpp" "std_msgs")
 set(cpp_pubsub_BUILDTOOL_DEPENDS "ament_cmake")
 set(cpp_pubsub_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs")

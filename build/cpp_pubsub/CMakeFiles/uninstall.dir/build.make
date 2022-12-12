@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fierra/ros2_ws/src/cpp_pubsub
+CMAKE_SOURCE_DIR = /home/fierra/beginner_tutuorial/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fierra/ros2_ws/build/cpp_pubsub
+CMAKE_BINARY_DIR = /home/fierra/beginner_tutuorial/build/cpp_pubsub
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/fierra/ros2_ws/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fierra/ros2_ws/src/cpp_pubsub /home/fierra/ros2_ws/src/cpp_pubsub /home/fierra/ros2_ws/build/cpp_pubsub /home/fierra/ros2_ws/build/cpp_pubsub /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fierra/beginner_tutuorial/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fierra/beginner_tutuorial/src/cpp_pubsub /home/fierra/beginner_tutuorial/src/cpp_pubsub /home/fierra/beginner_tutuorial/build/cpp_pubsub /home/fierra/beginner_tutuorial/build/cpp_pubsub /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

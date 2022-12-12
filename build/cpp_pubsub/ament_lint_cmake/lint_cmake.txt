@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+ - /home/fierra/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml'

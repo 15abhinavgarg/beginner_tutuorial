@@ -1,0 +1,156 @@
+Start testing: Dec 11 14:15 EST
+----------------------------------------------------------
+1/5 Testing: cppcheck
+1/5 Test: cppcheck
+Command: "/usr/bin/python3.8" "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_cppcheck/cppcheck.txt" "--command" "/home/fierra/ros2_humble/install/ament_cppcheck/bin/ament_cppcheck" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml" "--include_dirs" "/home/fierra/beginner_tutuorial/src/cpp_pubsub/include"
+Directory: /home/fierra/beginner_tutuorial/src/cpp_pubsub
+"cppcheck" start time: Dec 11 14:15 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+ - /home/fierra/ros2_humble/install/ament_cppcheck/bin/ament_cppcheck --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml --include_dirs /home/fierra/beginner_tutuorial/src/cpp_pubsub/include
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml'
+<end of output>
+Test time =   1.55 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Dec 11 14:15 EST
+"cppcheck" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/5 Testing: lint_cmake
+2/5 Test: lint_cmake
+Command: "/usr/bin/python3.8" "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_lint_cmake/lint_cmake.txt" "--command" "/home/fierra/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml"
+Directory: /home/fierra/beginner_tutuorial/src/cpp_pubsub
+"lint_cmake" start time: Dec 11 14:15 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+ - /home/fierra/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml'
+<end of output>
+Test time =   1.14 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Dec 11 14:15 EST
+"lint_cmake" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/5 Testing: pep257
+3/5 Test: pep257
+Command: "/usr/bin/python3.8" "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_pep257/pep257.txt" "--command" "/home/fierra/ros2_humble/install/ament_pep257/bin/ament_pep257" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml"
+Directory: /home/fierra/beginner_tutuorial/src/cpp_pubsub
+"pep257" start time: Dec 11 14:15 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+ - /home/fierra/ros2_humble/install/ament_pep257/bin/ament_pep257 --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml
+checking ./launch/run_test.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml'
+<end of output>
+Test time =   1.04 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Dec 11 14:15 EST
+"pep257" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/5 Testing: uncrustify
+4/5 Test: uncrustify
+Command: "/usr/bin/python3.8" "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_uncrustify/uncrustify.txt" "--command" "/home/fierra/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml"
+Directory: /home/fierra/beginner_tutuorial/src/cpp_pubsub
+"uncrustify" start time: Dec 11 14:15 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+ - /home/fierra/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml
+Code style divergence in file 'src/my_dummy_lib_funct1.cpp':
+
+--- src/my_dummy_lib_funct1.cpp
++++ src/my_dummy_lib_funct1.cpp.uncrustify
+@@ -1 +0,0 @@
+-
+
+Code style divergence in file 'src/publisher_member_function.cpp':
+
+--- src/publisher_member_function.cpp
++++ src/publisher_member_function.cpp.uncrustify
+@@ -1 +0,0 @@
+-
+@@ -40 +39 @@
+-  MinimalPublisher() 
++  MinimalPublisher()
+@@ -77 +76 @@
+-int main(int argc, char * argv[]) 
++int main(int argc, char * argv[])
+
+Code style divergence in file 'src/subscriber_member_function.cpp':
+
+--- src/subscriber_member_function.cpp
++++ src/subscriber_member_function.cpp.uncrustify
+@@ -1 +0,0 @@
+-
+@@ -27 +26 @@
+-  : Node("minimal_subscriber"), count_(0) 
++  : Node("minimal_subscriber"), count_(0)
+
+3 files with code style divergence
+No code style divergence in file 'include/my_dummy_lib_funct1.hpp'
+
+No code style divergence in file 'include/my_dummy_lib_funct2.hpp'
+
+No code style divergence in file 'src/my_dummy_lib_funct2.cpp'
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml'
+<end of output>
+Test time =   1.04 sec
+----------------------------------------------------------
+Test Failed.
+"uncrustify" end time: Dec 11 14:15 EST
+"uncrustify" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/5 Testing: xmllint
+5/5 Test: xmllint
+Command: "/usr/bin/python3.8" "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_xmllint/xmllint.txt" "--command" "/home/fierra/ros2_humble/install/ament_xmllint/bin/ament_xmllint" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml"
+Directory: /home/fierra/beginner_tutuorial/src/cpp_pubsub
+"xmllint" start time: Dec 11 14:15 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+ - /home/fierra/ros2_humble/install/ament_xmllint/bin/ament_xmllint --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml'
+<end of output>
+Test time =   2.26 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Dec 11 14:16 EST
+"xmllint" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Dec 11 14:16 EST
+
+cppcheck =   1.55 sec*proc
+
+lint_cmake =   1.14 sec*proc
+
+linter =   7.02 sec*proc
+
+pep257 =   1.04 sec*proc
+
+uncrustify =   1.04 sec*proc
+
+xmllint =   2.26 sec*proc
+

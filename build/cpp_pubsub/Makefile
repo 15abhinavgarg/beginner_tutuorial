@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fierra/ros2_ws/src/cpp_pubsub
+CMAKE_SOURCE_DIR = /home/fierra/beginner_tutuorial/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fierra/ros2_ws/build/cpp_pubsub
+CMAKE_BINARY_DIR = /home/fierra/beginner_tutuorial/build/cpp_pubsub
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,19 @@ talker/fast:
 .PHONY : talker/fast
 
 #=============================================================================
+# Target rules for targets named my_dummy_lib
+
+# Build rule for target.
+my_dummy_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_dummy_lib
+.PHONY : my_dummy_lib
+
+# fast build rule for target.
+my_dummy_lib/fast:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/build
+.PHONY : my_dummy_lib/fast
+
+#=============================================================================
 # Target rules for targets named cpp_pubsub_uninstall
 
 # Build rule for target.
@@ -218,6 +231,60 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+src/my_dummy_lib_funct1.o: src/my_dummy_lib_funct1.cpp.o
+
+.PHONY : src/my_dummy_lib_funct1.o
+
+# target to build an object file
+src/my_dummy_lib_funct1.cpp.o:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/src/my_dummy_lib_funct1.cpp.o
+.PHONY : src/my_dummy_lib_funct1.cpp.o
+
+src/my_dummy_lib_funct1.i: src/my_dummy_lib_funct1.cpp.i
+
+.PHONY : src/my_dummy_lib_funct1.i
+
+# target to preprocess a source file
+src/my_dummy_lib_funct1.cpp.i:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/src/my_dummy_lib_funct1.cpp.i
+.PHONY : src/my_dummy_lib_funct1.cpp.i
+
+src/my_dummy_lib_funct1.s: src/my_dummy_lib_funct1.cpp.s
+
+.PHONY : src/my_dummy_lib_funct1.s
+
+# target to generate assembly for a file
+src/my_dummy_lib_funct1.cpp.s:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/src/my_dummy_lib_funct1.cpp.s
+.PHONY : src/my_dummy_lib_funct1.cpp.s
+
+src/my_dummy_lib_funct2.o: src/my_dummy_lib_funct2.cpp.o
+
+.PHONY : src/my_dummy_lib_funct2.o
+
+# target to build an object file
+src/my_dummy_lib_funct2.cpp.o:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/src/my_dummy_lib_funct2.cpp.o
+.PHONY : src/my_dummy_lib_funct2.cpp.o
+
+src/my_dummy_lib_funct2.i: src/my_dummy_lib_funct2.cpp.i
+
+.PHONY : src/my_dummy_lib_funct2.i
+
+# target to preprocess a source file
+src/my_dummy_lib_funct2.cpp.i:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/src/my_dummy_lib_funct2.cpp.i
+.PHONY : src/my_dummy_lib_funct2.cpp.i
+
+src/my_dummy_lib_funct2.s: src/my_dummy_lib_funct2.cpp.s
+
+.PHONY : src/my_dummy_lib_funct2.s
+
+# target to generate assembly for a file
+src/my_dummy_lib_funct2.cpp.s:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/src/my_dummy_lib_funct2.cpp.s
+.PHONY : src/my_dummy_lib_funct2.cpp.s
 
 src/publisher_member_function.o: src/publisher_member_function.cpp.o
 
@@ -288,8 +355,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... listener"
 	@echo "... talker"
+	@echo "... my_dummy_lib"
 	@echo "... cpp_pubsub_uninstall"
 	@echo "... uninstall"
+	@echo "... src/my_dummy_lib_funct1.o"
+	@echo "... src/my_dummy_lib_funct1.i"
+	@echo "... src/my_dummy_lib_funct1.s"
+	@echo "... src/my_dummy_lib_funct2.o"
+	@echo "... src/my_dummy_lib_funct2.i"
+	@echo "... src/my_dummy_lib_funct2.s"
 	@echo "... src/publisher_member_function.o"
 	@echo "... src/publisher_member_function.i"
 	@echo "... src/publisher_member_function.s"

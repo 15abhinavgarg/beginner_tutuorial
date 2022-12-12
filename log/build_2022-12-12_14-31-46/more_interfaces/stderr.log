@@ -1,0 +1,15 @@
+CMake Deprecation Warning at /home/fierra/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (rosidl_target_interfaces)
+
+
+CMake Error at /home/fierra/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:42 (message):
+  rosidl_target_interfaces() the second argument 'more_interfaces' must be a
+  valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (rosidl_target_interfaces)
+
+
+make: *** [Makefile:820: cmake_check_build_system] Error 1

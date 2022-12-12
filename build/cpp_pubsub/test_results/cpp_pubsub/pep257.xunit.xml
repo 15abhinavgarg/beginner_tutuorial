@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_pubsub.pep257"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.012"
+>
+  <testcase
+    name="./launch/run_test.launch.py"
+    classname="cpp_pubsub.pep257"/>
+  <system-out>Checked files:
+* ./launch/run_test.launch.py</system-out>
+</testsuite>

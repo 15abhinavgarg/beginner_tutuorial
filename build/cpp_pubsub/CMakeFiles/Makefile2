@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fierra/ros2_ws/src/cpp_pubsub
+CMAKE_SOURCE_DIR = /home/fierra/beginner_tutuorial/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fierra/ros2_ws/build/cpp_pubsub
+CMAKE_BINARY_DIR = /home/fierra/beginner_tutuorial/build/cpp_pubsub
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = /home/fierra/ros2_ws/build/cpp_pubsub
 # The main recursive "all" target.
 all: CMakeFiles/listener.dir/all
 all: CMakeFiles/talker.dir/all
+all: CMakeFiles/my_dummy_lib.dir/all
 
 .PHONY : all
 
@@ -66,6 +67,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/listener.dir/clean
 clean: CMakeFiles/talker.dir/clean
+clean: CMakeFiles/my_dummy_lib.dir/clean
 clean: CMakeFiles/cpp_pubsub_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
@@ -75,17 +77,17 @@ clean: CMakeFiles/uninstall.dir/clean
 # Target rules for target CMakeFiles/listener.dir
 
 # All Build rule for target.
-CMakeFiles/listener.dir/all:
+CMakeFiles/listener.dir/all: CMakeFiles/my_dummy_lib.dir/all
 	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/depend
 	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles --progress-num=1,2 "Built target listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles --progress-num=1,2 "Built target listener"
 .PHONY : CMakeFiles/listener.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/listener.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/listener.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 0
 .PHONY : CMakeFiles/listener.dir/rule
 
 # Convenience name for target.
@@ -102,17 +104,17 @@ CMakeFiles/listener.dir/clean:
 # Target rules for target CMakeFiles/talker.dir
 
 # All Build rule for target.
-CMakeFiles/talker.dir/all:
+CMakeFiles/talker.dir/all: CMakeFiles/my_dummy_lib.dir/all
 	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/depend
 	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles --progress-num=3,4 "Built target talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles --progress-num=6,7 "Built target talker"
 .PHONY : CMakeFiles/talker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/talker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/talker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 0
 .PHONY : CMakeFiles/talker.dir/rule
 
 # Convenience name for target.
@@ -126,20 +128,47 @@ CMakeFiles/talker.dir/clean:
 .PHONY : CMakeFiles/talker.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/my_dummy_lib.dir
+
+# All Build rule for target.
+CMakeFiles/my_dummy_lib.dir/all:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/depend
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles --progress-num=3,4,5 "Built target my_dummy_lib"
+.PHONY : CMakeFiles/my_dummy_lib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/my_dummy_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/my_dummy_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 0
+.PHONY : CMakeFiles/my_dummy_lib.dir/rule
+
+# Convenience name for target.
+my_dummy_lib: CMakeFiles/my_dummy_lib.dir/rule
+
+.PHONY : my_dummy_lib
+
+# clean rule for target.
+CMakeFiles/my_dummy_lib.dir/clean:
+	$(MAKE) -f CMakeFiles/my_dummy_lib.dir/build.make CMakeFiles/my_dummy_lib.dir/clean
+.PHONY : CMakeFiles/my_dummy_lib.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/cpp_pubsub_uninstall.dir
 
 # All Build rule for target.
 CMakeFiles/cpp_pubsub_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/cpp_pubsub_uninstall.dir/build.make CMakeFiles/cpp_pubsub_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/cpp_pubsub_uninstall.dir/build.make CMakeFiles/cpp_pubsub_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles --progress-num= "Built target cpp_pubsub_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles --progress-num= "Built target cpp_pubsub_uninstall"
 .PHONY : CMakeFiles/cpp_pubsub_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpp_pubsub_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpp_pubsub_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 0
 .PHONY : CMakeFiles/cpp_pubsub_uninstall.dir/rule
 
 # Convenience name for target.
@@ -159,14 +188,14 @@ CMakeFiles/cpp_pubsub_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/cpp_pubsub_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/ros2_ws/build/cpp_pubsub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fierra/beginner_tutuorial/build/cpp_pubsub/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

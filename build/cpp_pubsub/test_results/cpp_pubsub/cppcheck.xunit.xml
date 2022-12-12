@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_pubsub.cppcheck"
+  tests="6"
+  errors="0"
+  failures="0"
+  time="0.018"
+  skipped="0"
+>
+  <testcase
+    name="include/my_dummy_lib_funct1.hpp"
+    classname="cpp_pubsub.cppcheck"/>
+  <testcase
+    name="include/my_dummy_lib_funct2.hpp"
+    classname="cpp_pubsub.cppcheck"/>
+  <testcase
+    name="src/my_dummy_lib_funct1.cpp"
+    classname="cpp_pubsub.cppcheck"/>
+  <testcase
+    name="src/my_dummy_lib_funct2.cpp"
+    classname="cpp_pubsub.cppcheck"/>
+  <testcase
+    name="src/publisher_member_function.cpp"
+    classname="cpp_pubsub.cppcheck"/>
+  <testcase
+    name="src/subscriber_member_function.cpp"
+    classname="cpp_pubsub.cppcheck"/>
+  <system-out>Checked files:
+* include/my_dummy_lib_funct1.hpp
+* include/my_dummy_lib_funct2.hpp
+* src/my_dummy_lib_funct1.cpp
+* src/my_dummy_lib_funct2.cpp
+* src/publisher_member_function.cpp
+* src/subscriber_member_function.cpp</system-out>
+</testsuite>

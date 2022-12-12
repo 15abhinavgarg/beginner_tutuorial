@@ -1,1 +1,0 @@
-/home/fierra/ros2_ws/src/examples/rclpy/guard_conditions/setup.py

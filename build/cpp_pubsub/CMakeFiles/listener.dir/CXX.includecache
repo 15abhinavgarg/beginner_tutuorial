@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/fierra/beginner_tutuorial/src/cpp_pubsub/src/subscriber_member_function.cpp
+rclcpp/rclcpp.hpp
+-
+std_msgs/msg/string.hpp
+-
+
 /home/fierra/ros2_humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
 algorithm
 -
@@ -4807,14 +4813,4 @@ tracetools/config.h
 /home/fierra/ros2_humble/install/tracetools/include/tracetools/tracetools/tracetools/config.h
 
 /home/fierra/ros2_humble/install/tracetools/include/tracetools/tracetools/visibility_control.hpp
-
-/home/fierra/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp
-functional
--
-memory
--
-rclcpp/rclcpp.hpp
-/home/fierra/ros2_ws/src/cpp_pubsub/src/rclcpp/rclcpp.hpp
-std_msgs/msg/string.hpp
-/home/fierra/ros2_ws/src/cpp_pubsub/src/std_msgs/msg/string.hpp
 

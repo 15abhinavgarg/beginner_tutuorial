@@ -1,0 +1,149 @@
+[0.321s] Invoking command in '/home/fierra/beginner_tutuorial/build/cpp_pubsub': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.358s] UpdateCTestConfiguration  from :/home/fierra/beginner_tutuorial/build/cpp_pubsub/CTestConfiguration.ini
+[0.358s] Parse Config file:/home/fierra/beginner_tutuorial/build/cpp_pubsub/CTestConfiguration.ini
+[0.359s]    Site: fierra
+[0.359s]    Build name: (empty)
+[0.359s]  Add coverage exclude regular expressions.
+[0.359s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.359s] Create new tag: 20221211-1900 - Experimental
+[0.359s] UpdateCTestConfiguration  from :/home/fierra/beginner_tutuorial/build/cpp_pubsub/CTestConfiguration.ini
+[0.360s] Parse Config file:/home/fierra/beginner_tutuorial/build/cpp_pubsub/CTestConfiguration.ini
+[0.360s] Test project /home/fierra/beginner_tutuorial/build/cpp_pubsub
+[0.360s] Constructing a list of tests
+[0.360s] Done constructing a list of tests
+[0.360s] Updating test list for fixtures
+[0.360s] Added 0 tests to meet fixture requirements
+[0.373s] Checking test dependency graph...
+[0.373s] Checking test dependency graph end
+[0.373s] test 1
+[0.373s]     Start 1: cppcheck
+[0.373s] 
+[0.374s] 1: Test command: /usr/bin/python3.8 "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_cppcheck/cppcheck.txt" "--command" "/home/fierra/ros2_humble/install/ament_cppcheck/bin/ament_cppcheck" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml" "--include_dirs" "/home/fierra/beginner_tutuorial/src/cpp_pubsub/include"
+[0.374s] 1: Test timeout computed to be: 300
+[1.162s] 1: -- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+[1.163s] 1:  - /home/fierra/ros2_humble/install/ament_cppcheck/bin/ament_cppcheck --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml --include_dirs /home/fierra/beginner_tutuorial/src/cpp_pubsub/include
+[1.870s] 1: No problems found
+[1.891s] 1: -- run_test.py: return code 0
+[1.891s] 1: -- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml'
+[1.904s] 1/5 Test #1: cppcheck .........................   Passed    1.53 sec
+[1.905s] test 2
+[1.905s]     Start 2: lint_cmake
+[1.905s] 
+[1.905s] 2: Test command: /usr/bin/python3.8 "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_lint_cmake/lint_cmake.txt" "--command" "/home/fierra/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml"
+[1.906s] 2: Test timeout computed to be: 60
+[2.287s] 2: -- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+[2.287s] 2:  - /home/fierra/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml
+[2.854s] 2: 
+[2.854s] 2: No problems found
+[2.872s] 2: -- run_test.py: return code 0
+[2.872s] 2: -- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml'
+[2.886s] 2/5 Test #2: lint_cmake .......................   Passed    0.98 sec
+[2.886s] test 3
+[2.886s]     Start 3: pep257
+[2.887s] 
+[2.887s] 3: Test command: /usr/bin/python3.8 "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_pep257/pep257.txt" "--command" "/home/fierra/ros2_humble/install/ament_pep257/bin/ament_pep257" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml"
+[2.887s] 3: Test timeout computed to be: 60
+[3.250s] 3: -- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+[3.250s] 3:  - /home/fierra/ros2_humble/install/ament_pep257/bin/ament_pep257 --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml
+[4.036s] 3: checking ./launch/run_test.launch.py
+[4.036s] 3: No problems found
+[4.072s] 3: -- run_test.py: return code 0
+[4.073s] 3: -- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml'
+[4.093s] 3/5 Test #3: pep257 ...........................   Passed    1.21 sec
+[4.095s] test 4
+[4.095s]     Start 4: uncrustify
+[4.095s] 
+[4.095s] 4: Test command: /usr/bin/python3.8 "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_uncrustify/uncrustify.txt" "--command" "/home/fierra/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml"
+[4.096s] 4: Test timeout computed to be: 60
+[4.501s] 4: -- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+[4.501s] 4:  - /home/fierra/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml
+[5.335s] 4: Code style divergence in file 'src/my_dummy_lib_funct1.cpp':
+[5.335s] 4: 
+[5.335s] 4: --- src/my_dummy_lib_funct1.cpp
+[5.335s] 4: +++ src/my_dummy_lib_funct1.cpp.uncrustify
+[5.336s] 4: @@ -1 +0,0 @@
+[5.336s] 4: -
+[5.336s] 4: 
+[5.336s] 4: Code style divergence in file 'src/publisher_member_function.cpp':
+[5.336s] 4: 
+[5.336s] 4: --- src/publisher_member_function.cpp
+[5.337s] 4: +++ src/publisher_member_function.cpp.uncrustify
+[5.337s] 4: @@ -1 +0,0 @@
+[5.337s] 4: -
+[5.337s] 4: @@ -40 +39 @@
+[5.337s] 4: -  MinimalPublisher() 
+[5.337s] 4: +  MinimalPublisher()
+[5.337s] 4: @@ -77 +76 @@
+[5.337s] 4: -int main(int argc, char *argv[]) 
+[5.338s] 4: +int main(int argc, char * argv[])
+[5.338s] 4: 
+[5.338s] 4: Code style divergence in file 'src/subscriber_member_function.cpp':
+[5.338s] 4: 
+[5.338s] 4: --- src/subscriber_member_function.cpp
+[5.338s] 4: +++ src/subscriber_member_function.cpp.uncrustify
+[5.338s] 4: @@ -1 +0,0 @@
+[5.338s] 4: -
+[5.339s] 4: @@ -23,3 +22,6 @@
+[5.339s] 4: -class MinimalSubscriber : public rclcpp::Node {
+[5.339s] 4: - public:
+[5.339s] 4: -  MinimalSubscriber() : Node("minimal_subscriber"), count_(0) {
+[5.339s] 4: +class MinimalSubscriber : public rclcpp::Node
+[5.339s] 4: +{
+[5.339s] 4: +public:
+[5.339s] 4: +  MinimalSubscriber()
+[5.339s] 4: +  : Node("minimal_subscriber"), count_(0)
+[5.340s] 4: +  {
+[5.340s] 4: @@ -31,2 +33,3 @@
+[5.340s] 4: - private:
+[5.340s] 4: -  void topic_callback(const std_msgs::msg::String& msg) {
+[5.340s] 4: +private:
+[5.340s] 4: +  void topic_callback(const std_msgs::msg::String & msg)
+[5.340s] 4: +  {
+[5.340s] 4: @@ -36 +39 @@
+[5.340s] 4: -    if (++count_ >= 3) exit(EXIT_SUCCESS);
+[5.341s] 4: +    if (++count_ >= 3) {exit(EXIT_SUCCESS);}
+[5.341s] 4: @@ -43 +46,2 @@
+[5.341s] 4: -int main(int argc, char* argv[]) {
+[5.341s] 4: +int main(int argc, char * argv[])
+[5.341s] 4: +{
+[5.341s] 4: 
+[5.341s] 4: 3 files with code style divergence
+[5.341s] 4: No code style divergence in file 'include/my_dummy_lib_funct1.hpp'
+[5.341s] 4: 
+[5.342s] 4: No code style divergence in file 'include/my_dummy_lib_funct2.hpp'
+[5.342s] 4: 
+[5.342s] 4: No code style divergence in file 'src/my_dummy_lib_funct2.cpp'
+[5.342s] 4: 
+[5.358s] 4: -- run_test.py: return code 1
+[5.358s] 4: -- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml'
+[5.372s] 4/5 Test #4: uncrustify .......................***Failed    1.28 sec
+[5.373s] test 5
+[5.373s]     Start 5: xmllint
+[5.373s] 
+[5.373s] 5: Test command: /usr/bin/python3.8 "-u" "/home/fierra/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/ament_xmllint/xmllint.txt" "--command" "/home/fierra/ros2_humble/install/ament_xmllint/bin/ament_xmllint" "--xunit-file" "/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml"
+[5.373s] 5: Test timeout computed to be: 60
+[5.986s] 5: -- run_test.py: invoking following command in '/home/fierra/beginner_tutuorial/src/cpp_pubsub':
+[5.986s] 5:  - /home/fierra/ros2_humble/install/ament_xmllint/bin/ament_xmllint --xunit-file /home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml
+[6.767s] 5: File 'package.xml' is valid
+[6.767s] 5: 
+[6.767s] 5: No problems found
+[6.790s] 5: -- run_test.py: return code 0
+[6.791s] 5: -- run_test.py: verify result file '/home/fierra/beginner_tutuorial/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml'
+[6.804s] 5/5 Test #5: xmllint ..........................   Passed    1.43 sec
+[6.806s] 
+[6.806s] 80% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 5
+[6.806s] 
+[6.806s] Label Time Summary:
+[6.806s] cppcheck      =   1.53 sec*proc (1 test)
+[6.806s] lint_cmake    =   0.98 sec*proc (1 test)
+[6.806s] linter        =   6.43 sec*proc (5 tests)
+[6.807s] pep257        =   1.21 sec*proc (1 test)
+[6.807s] uncrustify    =   1.28 sec*proc (1 test)
+[6.807s] xmllint       =   1.43 sec*proc (1 test)
+[6.807s] 
+[6.807s] Total Test time (real) =   6.45 sec
+[6.807s] 
+[6.807s] The following tests FAILED:
+[6.807s] 	[0;31m  4 - uncrustify (Failed)[0;0m
+[6.827s] Errors while running CTest
+[6.830s] Invoked command in '/home/fierra/beginner_tutuorial/build/cpp_pubsub' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
