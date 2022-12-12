@@ -327,3 +327,7 @@ CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o
  /home/fierra/ros2_humble/install/tracetools/include/tracetools/tracetools/tracetools.h
  /home/fierra/ros2_humble/install/tracetools/include/tracetools/tracetools/utils.hpp
  /home/fierra/ros2_humble/install/tracetools/include/tracetools/tracetools/visibility_control.hpp
+ rosidl_generator_cpp/more_interfaces/msg/address_book.hpp
+ rosidl_generator_cpp/more_interfaces/msg/detail/address_book__builder.hpp
+ rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp
+ rosidl_generator_cpp/more_interfaces/msg/detail/address_book__traits.hpp

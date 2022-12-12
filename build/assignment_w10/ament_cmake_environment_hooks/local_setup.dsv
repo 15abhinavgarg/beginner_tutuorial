@@ -1,0 +1,4 @@
+source;share/assignment_w10/environment/ament_prefix_path.sh
+source;share/assignment_w10/environment/library_path.sh
+source;share/assignment_w10/environment/path.sh
+source;share/assignment_w10/environment/pythonpath.sh

@@ -1,0 +1,26 @@
+launch:
+
+# args that can be set from the command line or a default will be used
+
+- arg:
+    name: "frequency"
+    default: "1.0"
+
+# start a talker node 
+- node:
+    pkg: "assignment_w10"
+    exec: "talker"
+    name: "sim"
+    namespace: "minimal_publisher"
+    param:
+    -
+      name: "frequency"
+      value: "$(var frequency)"
+
+# start subscriber and use args to set parameters
+- node:
+    pkg: "assignment_w10"
+    exec: "listener"
+    name: "sim"
+    namespace: "minimal_subscriber"
+  

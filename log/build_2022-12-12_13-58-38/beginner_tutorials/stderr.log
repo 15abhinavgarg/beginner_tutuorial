@@ -1,8 +1,0 @@
-[01m[K/home/fierra/beginner_tutuorial/src/beginner_tutorials/test/basic_test.cpp:50:10:[m[K [01;31m[Kfatal error: [m[K/std_msgs/msg/string.hpp: No such file or directory
-   50 | #include [01;31m[K"/std_msgs/msg/string.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/beginner_tutorials_test.dir/build.make:63: CMakeFiles/beginner_tutorials_test.dir/test/basic_test.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:390: CMakeFiles/beginner_tutorials_test.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make: *** [Makefile:141: all] Error 2

@@ -53,7 +53,9 @@
 /home/fierra/beginner_tutuorial/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
 /home/fierra/beginner_tutuorial/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
 /home/fierra/beginner_tutuorial/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+/home/fierra/beginner_tutuorial/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
 /home/fierra/beginner_tutuorial/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+/home/fierra/beginner_tutuorial/install/more_interfaces/share/more_interfaces/environment/path.sh
 /home/fierra/beginner_tutuorial/install/more_interfaces/share/more_interfaces/environment/path.dsv
 /home/fierra/beginner_tutuorial/install/more_interfaces/share/more_interfaces/local_setup.bash
 /home/fierra/beginner_tutuorial/install/more_interfaces/share/more_interfaces/local_setup.sh
