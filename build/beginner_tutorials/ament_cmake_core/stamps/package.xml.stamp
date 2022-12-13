@@ -4,7 +4,7 @@
   <name>beginner_tutorials</name>
   <version>0.0.0</version>
   <description>Examples of minimal publisher/subscriber using rclcpp</description>
-  <maintainer email="marora1@umd.edu">mahima</maintainer>
+  <maintainer email="agarg125@umd.edu">Abhinav</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
