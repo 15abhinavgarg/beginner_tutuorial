@@ -1,8 +1,0 @@
-{
-  "package_name": "tutorial_interfaces",
-  "non_idl_tuples": [
-    "/home/fierra/beginner_tutuorial/src/tutorial_interfaces:msg/Num.msg",
-    "/home/fierra/beginner_tutuorial/src/tutorial_interfaces:msg/Sphere.msg",
-    "/home/fierra/beginner_tutuorial/src/tutorial_interfaces:srv/AddThreeInts.srv"
-  ]
-}
