@@ -1,9 +1,0 @@
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/install/strip.dir
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/install/local.dir
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/edit_cache.dir
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/test.dir
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/install.dir
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/list_install_components.dir
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
-/home/fierra/beginner_tutuorial/build/cpp_srvcli/CMakeFiles/uninstall.dir

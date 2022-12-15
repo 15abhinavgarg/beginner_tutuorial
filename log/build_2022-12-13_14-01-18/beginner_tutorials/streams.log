@@ -1,0 +1,101 @@
+[0.049s] Invoking command in '/home/fierra/beginner_tutuorial/build/beginner_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fierra/ros2_humble/install/rqt_bag_plugins:/home/fierra/ros2_humble/install/rqt_bag:/home/fierra/ros2_humble/install/ros2bag:/home/fierra/ros2_humble/install/tracetools_test:/home/fierra/ros2_humble/install/tracetools_launch:/home/fierra/ros2_humble/install/topic_monitor:/home/fierra/ros2_humble/install/tf2_tools:/home/fierra/ros2_humble/install/examples_tf2_py:/home/fierra/ros2_humble/install/tf2_ros_py:/home/fierra/ros2_humble/install/sros2:/home/fierra/ros2_humble/install/rqt_topic:/home/fierra/ros2_humble/install/rqt_srv:/home/fierra/ros2_humble/install/rqt_shell:/home/fierra/ros2_humble/install/rqt_service_caller:/home/fierra/ros2_humble/install/rqt_reconfigure:/home/fierra/ros2_humble/install/rqt_py_console:/home/fierra/ros2_humble/install/rqt_publisher:/home/fierra/ros2_humble/install/rqt_plot:/home/fierra/ros2_humble/install/rqt_action:/home/fierra/ros2_humble/install/rqt_msg:/home/fierra/ros2_humble/install/rqt_console:/home/fierra/ros2_humble/install/rqt:/home/fierra/ros2_humble/install/rqt_graph:/home/fierra/ros2_humble/install/rqt_gui_py:/home/fierra/ros2_humble/install/rqt_gui:/home/fierra/ros2_humble/install/ros2trace:/home/fierra/ros2_humble/install/ros2topic:/home/fierra/ros2_humble/install/ros2test:/home/fierra/ros2_humble/install/ros2component:/home/fierra/ros2_humble/install/ros2param:/home/fierra/ros2_humble/install/ros2lifecycle:/home/fierra/ros2_humble/install/ros2service:/home/fierra/ros2_humble/install/ros2run:/home/fierra/ros2_humble/install/ros2launch:/home/fierra/ros2_humble/install/ros2pkg:/home/fierra/ros2_humble/install/ros2node:/home/fierra/ros2_humble/install/ros2multicast:/home/fierra/ros2_humble/install/ros2interface:/home/fierra/ros2_humble/install/ros2doctor:/home/fierra/ros2_humble/install/ros2action:/home/fierra/ros2_humble/install/ros2cli:/home/fierra/ros2_humble/install/quality_of_service_demo_py:/home/fierra/ros2_humble/install/lifecycle_py:/home/fierra/ros2_humble/install/launch_testing_ros:/home/fierra/ros2_humble/install/launch_ros:/home/fierra/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/fierra/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/fierra/ros2_humble/install/examples_rclpy_minimal_service:/home/fierra/ros2_humble/install/examples_rclpy_minimal_publisher:/home/fierra/ros2_humble/install/examples_rclpy_minimal_client:/home/fierra/ros2_humble/install/examples_rclpy_minimal_action_server:/home/fierra/ros2_humble/install/examples_rclpy_minimal_action_client:/home/fierra/ros2_humble/install/examples_rclpy_guard_conditions:/home/fierra/ros2_humble/install/examples_rclpy_executors:/home/fierra/ros2_humble/install/demo_nodes_py:/home/fierra/ros2_humble/install/action_tutorials_py:/home/fierra/ros2_humble/install/ament_uncrustify:/home/fierra/ros2_humble/install/tracetools_trace:/home/fierra/ros2_humble/install/tracetools_read:/home/fierra/ros2_humble/install/test_tracetools_launch:/home/fierra/ros2_humble/install/test_launch_ros:/home/fierra/ros2_humble/install/sensor_msgs_py:/home/fierra/ros2_humble/install/rpyutils:/home/fierra/ros2_humble/install/rosidl_runtime_py:/home/fierra/ros2_humble/install/rosidl_cli:/home/fierra/ros2_humble/install/launch_pytest:/home/fierra/ros2_humble/install/launch_testing:/home/fierra/ros2_humble/install/launch_yaml:/home/fierra/ros2_humble/install/launch_xml:/home/fierra/ros2_humble/install/launch:/home/fierra/ros2_humble/install/osrf_pycommon:/home/fierra/ros2_humble/install/launch_testing_examples:/home/fierra/ros2_humble/install/domain_coordinator:/home/fierra/ros2_humble/install/ament_xmllint:/home/fierra/ros2_humble/install/ament_pyflakes:/home/fierra/ros2_humble/install/ament_pycodestyle:/home/fierra/ros2_humble/install/ament_pep257:/home/fierra/ros2_humble/install/ament_pclint:/home/fierra/ros2_humble/install/ament_package:/home/fierra/ros2_humble/install/ament_mypy:/home/fierra/ros2_humble/install/ament_lint_cmake:/home/fierra/ros2_humble/install/ament_flake8:/home/fierra/ros2_humble/install/ament_copyright:/home/fierra/ros2_humble/install/ament_lint:/home/fierra/ros2_humble/install/ament_index_python:/home/fierra/ros2_humble/install/ament_cpplint:/home/fierra/ros2_humble/install/ament_cppcheck:/home/fierra/ros2_humble/install/ament_clang_tidy:/home/fierra/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/fierra/beginner_tutuorial/build/beginner_tutorials -- -j8 -l8
+[0.118s] -- Found ament_cmake: 1.3.2 (/home/fierra/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+[1.461s] -- Found rclcpp: 16.0.1 (/home/fierra/ros2_humble/install/rclcpp/share/rclcpp/cmake)
+[1.513s] -- Found rosidl_generator_c: 3.1.3 (/home/fierra/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[1.517s] -- Found rosidl_adapter: 3.1.3 (/home/fierra/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.525s] -- Found rosidl_generator_cpp: 3.1.3 (/home/fierra/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[1.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[1.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[1.746s] -- Found rmw_implementation_cmake: 6.1.0 (/home/fierra/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[1.778s] -- Found rmw_fastrtps_cpp: 6.2.1 (/home/fierra/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+[2.082s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.307s] -- Found tf2: 0.25.1 (/home/fierra/ros2_humble/install/tf2/share/tf2/cmake)
+[2.383s] -- Found tf2_ros: 0.25.1 (/home/fierra/ros2_humble/install/tf2_ros/share/tf2_ros/cmake)
+[2.825s] -- Found turtlesim: 1.4.2 (/home/fierra/ros2_humble/install/turtlesim/share/turtlesim/cmake)
+[2.895s] -- Found rosidl_default_generators: 1.2.0 (/home/fierra/ros2_humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[5.275s] -- Found ament_cmake_ros: 0.10.0 (/home/fierra/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[10.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[12.234s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[12.443s] -- Found python_cmake_module: 0.10.0 (/home/fierra/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake)
+[12.655s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.655s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[12.655s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[13.067s] CMake Deprecation Warning at /home/fierra/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[13.067s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[13.067s]   rosidl_target_interfaces()
+[13.067s] Call Stack (most recent call first):
+[13.067s]   CMakeLists.txt:55 (rosidl_target_interfaces)
+[13.067s] 
+[13.068s] 
+[13.068s] CMake Deprecation Warning at /home/fierra/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[13.068s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[13.068s]   rosidl_target_interfaces()
+[13.068s] Call Stack (most recent call first):
+[13.068s]   CMakeLists.txt:58 (rosidl_target_interfaces)
+[13.068s] 
+[13.068s] 
+[13.068s] CMake Deprecation Warning at /home/fierra/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[13.068s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[13.068s]   rosidl_target_interfaces()
+[13.068s] Call Stack (most recent call first):
+[13.068s]   CMakeLists.txt:61 (rosidl_target_interfaces)
+[13.068s] 
+[13.068s] 
+[13.069s] -- Found ament_lint_auto: 0.12.4 (/home/fierra/ros2_humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[13.073s] -- Found gtest sources under '/home/fierra/ros2_humble/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.106s] -- Added test 'lint_cmake' to check CMake code style
+[13.107s] -- Added test 'xmllint' to check XML markup files
+[13.114s] -- Configuring done
+[13.218s] -- Generating done
+[13.231s] -- Build files have been written to: /home/fierra/beginner_tutuorial/build/beginner_tutorials
+[13.365s] [  4%] Built target gtest
+[13.368s] [ 16%] Built target gtest_main
+[13.368s] [ 16%] Built target beginner_tutorials__rosidl_generator_c
+[13.376s] [ 18%] Built target beginner_tutorials__cpp
+[13.412s] [ 18%] Built target ament_cmake_python_copy_beginner_tutorials
+[13.423s] [35m[1mScanning dependencies of target beginner_tutorials_test[0m
+[13.480s] [ 25%] Built target beginner_tutorials__rosidl_typesupport_introspection_c
+[13.481s] [ 32%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c
+[13.482s] [ 39%] Built target beginner_tutorials__rosidl_typesupport_introspection_cpp
+[13.483s] [ 46%] Built target beginner_tutorials__rosidl_typesupport_c
+[13.483s] [ 53%] Built target beginner_tutorials__rosidl_typesupport_cpp
+[13.499s] [ 60%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_cpp
+[13.560s] [ 60%] Built target beginner_tutorials
+[13.604s] [35m[1mScanning dependencies of target client[0m
+[13.611s] [35m[1mScanning dependencies of target talker[0m
+[13.611s] [35m[1mScanning dependencies of target listener[0m
+[13.619s] [ 62%] [32mBuilding CXX object CMakeFiles/beginner_tutorials_test.dir/test/basic_test.cpp.o[0m
+[13.632s] [ 65%] Built target beginner_tutorials__py
+[13.713s] [ 69%] Built target beginner_tutorials__rosidl_generator_py
+[13.786s] [ 74%] Built target beginner_tutorials__rosidl_typesupport_c__pyext
+[13.786s] [ 79%] Built target beginner_tutorials__rosidl_typesupport_introspection_c__pyext
+[13.790s] [ 83%] Built target beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[13.821s] [ 86%] [32mBuilding CXX object CMakeFiles/client.dir/src/change_string_client.cpp.o[0m
+[13.835s] [ 90%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[13.835s] [ 90%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[14.048s] [01m[K/home/fierra/beginner_tutuorial/src/beginner_tutorials/test/basic_test.cpp:50:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[14.048s]    50 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[14.048s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.048s] compilation terminated.
+[14.052s] make[2]: *** [CMakeFiles/beginner_tutorials_test.dir/build.make:63: CMakeFiles/beginner_tutorials_test.dir/test/basic_test.cpp.o] Error 1
+[14.052s] make[1]: *** [CMakeFiles/Makefile2:390: CMakeFiles/beginner_tutorials_test.dir/all] Error 2
+[14.053s] make[1]: *** Waiting for unfinished jobs....
+[14.312s] running egg_info
+[14.313s] writing beginner_tutorials.egg-info/PKG-INFO
+[14.404s] writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+[14.410s] writing top-level names to beginner_tutorials.egg-info/top_level.txt
+[14.466s] reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[14.466s] writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+[14.523s] [ 90%] Built target ament_cmake_python_build_beginner_tutorials_egg
+[16.980s] [01m[K/home/fierra/beginner_tutuorial/src/beginner_tutorials/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[16.980s] [01m[K/home/fierra/beginner_tutuorial/src/beginner_tutorials/src/publisher_member_function.cpp:79:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfrequency[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[16.980s]    79 |     auto [01;35m[Kfrequency[m[K = this->get_parameter("frequency")
+[16.980s]       |          [01;35m[K^~~~~~~~~[m[K
+[18.451s] [ 93%] [32m[1mLinking CXX executable client[0m
+[18.966s] [ 93%] Built target client
+[21.387s] [ 95%] [32m[1mLinking CXX executable talker[0m
+[21.792s] [ 95%] Built target talker
+[24.046s] [ 97%] [32m[1mLinking CXX executable listener[0m
+[24.511s] [ 97%] Built target listener
+[24.512s] make: *** [Makefile:141: all] Error 2
+[24.515s] Invoked command in '/home/fierra/beginner_tutuorial/build/beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fierra/ros2_humble/install/rqt_bag_plugins:/home/fierra/ros2_humble/install/rqt_bag:/home/fierra/ros2_humble/install/ros2bag:/home/fierra/ros2_humble/install/tracetools_test:/home/fierra/ros2_humble/install/tracetools_launch:/home/fierra/ros2_humble/install/topic_monitor:/home/fierra/ros2_humble/install/tf2_tools:/home/fierra/ros2_humble/install/examples_tf2_py:/home/fierra/ros2_humble/install/tf2_ros_py:/home/fierra/ros2_humble/install/sros2:/home/fierra/ros2_humble/install/rqt_topic:/home/fierra/ros2_humble/install/rqt_srv:/home/fierra/ros2_humble/install/rqt_shell:/home/fierra/ros2_humble/install/rqt_service_caller:/home/fierra/ros2_humble/install/rqt_reconfigure:/home/fierra/ros2_humble/install/rqt_py_console:/home/fierra/ros2_humble/install/rqt_publisher:/home/fierra/ros2_humble/install/rqt_plot:/home/fierra/ros2_humble/install/rqt_action:/home/fierra/ros2_humble/install/rqt_msg:/home/fierra/ros2_humble/install/rqt_console:/home/fierra/ros2_humble/install/rqt:/home/fierra/ros2_humble/install/rqt_graph:/home/fierra/ros2_humble/install/rqt_gui_py:/home/fierra/ros2_humble/install/rqt_gui:/home/fierra/ros2_humble/install/ros2trace:/home/fierra/ros2_humble/install/ros2topic:/home/fierra/ros2_humble/install/ros2test:/home/fierra/ros2_humble/install/ros2component:/home/fierra/ros2_humble/install/ros2param:/home/fierra/ros2_humble/install/ros2lifecycle:/home/fierra/ros2_humble/install/ros2service:/home/fierra/ros2_humble/install/ros2run:/home/fierra/ros2_humble/install/ros2launch:/home/fierra/ros2_humble/install/ros2pkg:/home/fierra/ros2_humble/install/ros2node:/home/fierra/ros2_humble/install/ros2multicast:/home/fierra/ros2_humble/install/ros2interface:/home/fierra/ros2_humble/install/ros2doctor:/home/fierra/ros2_humble/install/ros2action:/home/fierra/ros2_humble/install/ros2cli:/home/fierra/ros2_humble/install/quality_of_service_demo_py:/home/fierra/ros2_humble/install/lifecycle_py:/home/fierra/ros2_humble/install/launch_testing_ros:/home/fierra/ros2_humble/install/launch_ros:/home/fierra/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/fierra/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/fierra/ros2_humble/install/examples_rclpy_minimal_service:/home/fierra/ros2_humble/install/examples_rclpy_minimal_publisher:/home/fierra/ros2_humble/install/examples_rclpy_minimal_client:/home/fierra/ros2_humble/install/examples_rclpy_minimal_action_server:/home/fierra/ros2_humble/install/examples_rclpy_minimal_action_client:/home/fierra/ros2_humble/install/examples_rclpy_guard_conditions:/home/fierra/ros2_humble/install/examples_rclpy_executors:/home/fierra/ros2_humble/install/demo_nodes_py:/home/fierra/ros2_humble/install/action_tutorials_py:/home/fierra/ros2_humble/install/ament_uncrustify:/home/fierra/ros2_humble/install/tracetools_trace:/home/fierra/ros2_humble/install/tracetools_read:/home/fierra/ros2_humble/install/test_tracetools_launch:/home/fierra/ros2_humble/install/test_launch_ros:/home/fierra/ros2_humble/install/sensor_msgs_py:/home/fierra/ros2_humble/install/rpyutils:/home/fierra/ros2_humble/install/rosidl_runtime_py:/home/fierra/ros2_humble/install/rosidl_cli:/home/fierra/ros2_humble/install/launch_pytest:/home/fierra/ros2_humble/install/launch_testing:/home/fierra/ros2_humble/install/launch_yaml:/home/fierra/ros2_humble/install/launch_xml:/home/fierra/ros2_humble/install/launch:/home/fierra/ros2_humble/install/osrf_pycommon:/home/fierra/ros2_humble/install/launch_testing_examples:/home/fierra/ros2_humble/install/domain_coordinator:/home/fierra/ros2_humble/install/ament_xmllint:/home/fierra/ros2_humble/install/ament_pyflakes:/home/fierra/ros2_humble/install/ament_pycodestyle:/home/fierra/ros2_humble/install/ament_pep257:/home/fierra/ros2_humble/install/ament_pclint:/home/fierra/ros2_humble/install/ament_package:/home/fierra/ros2_humble/install/ament_mypy:/home/fierra/ros2_humble/install/ament_lint_cmake:/home/fierra/ros2_humble/install/ament_flake8:/home/fierra/ros2_humble/install/ament_copyright:/home/fierra/ros2_humble/install/ament_lint:/home/fierra/ros2_humble/install/ament_index_python:/home/fierra/ros2_humble/install/ament_cpplint:/home/fierra/ros2_humble/install/ament_cppcheck:/home/fierra/ros2_humble/install/ament_clang_tidy:/home/fierra/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/fierra/beginner_tutuorial/build/beginner_tutorials -- -j8 -l8

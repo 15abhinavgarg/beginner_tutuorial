@@ -64,7 +64,7 @@ using namespace std::chrono_literals;
 
 /**
  * @brief Minimal Publisher Class
- * 
+ *
  */
 
 class MinimalPublisher : public rclcpp::Node {
@@ -73,12 +73,13 @@ class MinimalPublisher : public rclcpp::Node {
       "Welcome to ROS2 Publisher-Subscriber package!";  // Default output
                                                         // message
   MinimalPublisher() : Node("minimal_publisher"), count_(0) {
-  // Setting up parameter for publisher frequency
-  auto freq_d = rcl_interfaces::msg::ParameterDescriptor();
-  freq_d.description = "Sets Publisher frequency in Hz.";
-  this->declare_parameter("frequency", 3.0, freq_d);
-  auto frequency =
-    this->get_parameter("frequency").get_parameter_value().get<std::float_t>();
+    // Setting up parameter for publisher frequency
+    auto freq_d = rcl_interfaces::msg::ParameterDescriptor();
+    freq_d.description = "Sets Publisher frequency in Hz.";
+    this->declare_parameter("frequency", 3.0, freq_d);
+    auto frequency = this->get_parameter("frequency")
+                         .get_parameter_value()
+                         .get<std::float_t>();
     publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
 
     timer_ = this->create_wall_timer(
@@ -90,10 +91,10 @@ class MinimalPublisher : public rclcpp::Node {
     service_ = create_service<assignment_w10::srv::ChangeString>(
         "update_request", serviceCallbackPtr);
 
-  if (this->count_subscribers("topic") == 0) {
-    RCLCPP_WARN_STREAM(this->get_logger(), "No subscriber for this topic");
-  }
-  this->get_logger().set_level(rclcpp::Logger::Level::Debug);
+    if (this->count_subscribers("topic") == 0) {
+      RCLCPP_WARN_STREAM(this->get_logger(), "No subscriber for this topic");
+    }
+    this->get_logger().set_level(rclcpp::Logger::Level::Debug);
   }
 
  private:
@@ -105,10 +106,8 @@ class MinimalPublisher : public rclcpp::Node {
   }
 
   void changeRequestString(
-      const std::shared_ptr<assignment_w10::srv::ChangeString::Request>
-          request,
-      std::shared_ptr<assignment_w10::srv::ChangeString::Response>
-          response) {
+      const std::shared_ptr<assignment_w10::srv::ChangeString::Request> request,
+      std::shared_ptr<assignment_w10::srv::ChangeString::Response> response) {
     response->output = request->input;
     RCLCPP_WARN_STREAM(rclcpp::get_logger("rclcpp"),
                        "Input Request: " << request->input);

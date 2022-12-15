@@ -1,8 +1,0 @@
-setup.py
-assignment_w10/__init__.py
-assignment_w10.egg-info/PKG-INFO
-assignment_w10.egg-info/SOURCES.txt
-assignment_w10.egg-info/dependency_links.txt
-assignment_w10.egg-info/top_level.txt
-assignment_w10/srv/__init__.py
-assignment_w10/srv/_change_string.py
