@@ -1,0 +1,37 @@
+launch:
+
+# args that can be set from the command line or a default will be used
+
+- arg:
+    name: "frequency"
+    default: "1.0"
+- arg:
+    name: "record_rosbag2"
+    default: "false"
+- arg:
+name: "name_rosbag2"
+default: "chatter"
+
+# start a talker node 
+- node:
+    pkg: "beginner_tutorials"
+    exec: "talker"
+    name: "sim"
+    namespace: "minimal_publisher"
+    param:
+    -
+      name: "frequency"
+      value: "$(var frequency)"
+
+# start subscriber and use args to set parameters
+- node:
+    pkg: "beginner_tutorials"
+    exec: "listener"
+    name: "sim"
+    namespace: "minimal_subscriber"
+
+# start rosbag recording
+- executable:
+  cmd: "ros2 bag record -a --output ../results/$(var name_rosbag2)"
+  if:$(var record_rosbag2)
+  
